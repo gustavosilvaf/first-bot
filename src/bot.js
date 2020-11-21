@@ -17,4 +17,4 @@ client.on('message', msg => {
 console.log(client.channels);
 
 
-client.login('Nzc5NDcxMzgxNTM5ODQ4MjEy.X7hBSw.La1wFMUounTN-Q0V26gNWlOfgQg');
+client.login(config.token);
