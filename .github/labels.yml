@@ -28,3 +28,6 @@
 - name: teste6
   description: testandooo
   color: 0000f6
+- name: teste7
+  description: testandooo
+  color: ff00f7

@@ -12,8 +12,8 @@ jobs:
       fail-fast: false
       matrix:
         repo:
-          - user/learn-es6
-          - user/first-bot
+          - gustavosilvaf/learn-es6
+          - gustavosilvaf/first-bot
 
     runs-on: ubuntu-latest
     steps:
