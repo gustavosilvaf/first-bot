@@ -9,19 +9,19 @@
   color: cfd3d7
 - name: teste
   description: testando
-  color: 0000ff
-  - name: teste2
-  description: testando
-  color: 0000ff
-  - name: teste3
-  description: testando
-  color: 0000ff
-  - name: teste4
-  description: testando
-  color: 0000ff
-  - name: teste5
-  description: testando
-  color: 0000ff
-  - name: teste6
-  description: testando
-  color: 0000ff
+  color: 0000f1
+- name: teste2
+  description: testandoooooo
+  color: 0000f2
+- name: teste3
+  description: testandooooo
+  color: 0000f3
+- name: teste4
+  description: testandoooo
+  color: 0000f4
+- name: teste5
+  description: testandooo
+  color: 0000f5
+- name: teste6
+  description: testandoo
+  color: 0000f6
