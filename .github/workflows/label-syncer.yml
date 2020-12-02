@@ -1,17 +1,28 @@
 name: Sync labels
-
 on:
   push:
-    paths:
-      - '.github/labels.yml'
     branches:
       - master
+    paths:
+      - .github/labels.yml
 jobs:
-  build:
-    name: Sync labels
+  labels_sync:
+    strategy:
+      # don't break another job if one is failed
+      fail-fast: false
+      matrix:
+        repo:
+          - user/learn-es6
+          - user/first-bot
+
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@1.0.0
-      - uses: micnncim/action-label-syncer@v0.3.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+      - name: Checkout
+        uses: actions/checkout@v2.3.3
+
+      - name: Sync
+        uses: micnncim/action-label-syncer@v1.2.0
+        with:
+          repository: ${{ matrix.repo }}
+          token: ${{ secrets.TOKEN }}
+          prune: false
