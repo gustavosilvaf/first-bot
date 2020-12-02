@@ -14,4 +14,4 @@ jobs:
         with:
           manifest: .github/labels.yml
           repository: gustavosilvaf/learn-es6
-          token: ${{ secrets.PERSONAL_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
