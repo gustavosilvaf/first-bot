@@ -10,3 +10,18 @@
 - name: teste
   description: testando
   color: 0000ff
+  - name: teste2
+  description: testando
+  color: 0000ff
+  - name: teste3
+  description: testando
+  color: 0000ff
+  - name: teste4
+  description: testando
+  color: 0000ff
+  - name: teste5
+  description: testando
+  color: 0000ff
+  - name: teste6
+  description: testando
+  color: 0000ff
