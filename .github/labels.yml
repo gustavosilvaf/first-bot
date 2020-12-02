@@ -1,12 +1,3 @@
-- name: bug
-  description: Something isn't working
-  color: d73a4a
-- name: documentation
-  description: Improvements or additions to documentation
-  color: 0075ca
-- name: duplicate
-  description: This issue or pull request already exists
-  color: cfd3d7
 - name: teste
   description: testando
   color: 0000f1
@@ -28,6 +19,3 @@
 - name: teste6
   description: testandooo
   color: 0000f6
-- name: teste7
-  description: testandooo
-  color: ff00f7
